@@ -31,5 +31,18 @@ The project follows a structured machine learning pipeline:
 - matplotlib, seaborn
 - Jupyter Notebook
 
-## Project Status
-In progress — results and reports will be added.
+## Key Results
+
+- Wine quality was framed as a binary classification problem:
+  - **Good wine:** quality ≥ 7
+  - **Bad wine:** quality ≤ 6
+- Several models were evaluated, including Logistic Regression, Decision Tree, and Random Forest.
+- The **Random Forest model trained on SMOTE-balanced data** achieved the best overall performance:
+  - **Macro F1-score ≈ 0.70**
+  - Improved recall for high-quality wines compared to baseline models.
+
+## Report
+A detailed description of the methodology, experiments, and results is available here:
+
+- 📄 **Final Project Report:** `reports/20251027_WineQualityPrediction_StephenEmmanuel.pdf`
+
